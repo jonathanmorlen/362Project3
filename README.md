@@ -5,7 +5,8 @@ ECE 362 Project 3 Game with Music
 Jonathan Morlen
 jmorlen@purdue.edu
 
------------------------------- Compilation ------------------------------------
+
+##Compilation
 
 To compile this game, add the .c files to the "src" folder of a new eclipse 
 project, add the .h files to the "inc" folder and then build and run. 
@@ -23,13 +24,13 @@ this is just a disclaimer since I don't know what will happen when grading
 
 This game is 80 x 21 @ 230,400 Baud so adjust the terminal settings accordingly.
 
--------------------------------- Summary --------------------------------------
+##Summary
 
 This game is a top-down maze game, similar to Super Bomberman on the Super NES.
 It has health, mana (a type of life force), armor, and gold elements from RPG 
 games. It incorporates types and supereffectiveness from Pokemon games as well.
 
--------------------------------- Controls -------------------------------------
+##Controls
 
 w - Up
 a - Left
@@ -44,7 +45,7 @@ m - Mute the music
 r - Show/Hide a condensed version of the hotkeys and controls breakdown
 e - Open shop to purchase powerups
 
-//---------------------------- Game Elements ----------------------------------
+##Game Elements
 
 'x' - enemy of a random color, all equal probabilities (red, green, blue). 
       Counter the enemy by changing to the appropriate type.
@@ -55,7 +56,7 @@ e - Open shop to purchase powerups
 	  reward and teleport to the beginning of the next level, keeping all 
 	  earned gold.
 
----------------------------------- Goal ---------------------------------------
+##Goal
 
 The player's character is a magenta (configurable) pound sign (#) that starts 
 in the bottom left corner of the maze
@@ -84,7 +85,7 @@ Once the player makes their way through the maze and into the portal, they are
 rewarded with a scaling level bounty of gold and are teleported to the next 
 level's start area.
 
---------------------------------- Interface -----------------------------------
+##Interface
 
 HUD:
 The heads up display (HUD) of the game is at the top of the screen. Here the 
@@ -118,7 +119,7 @@ If the player presses 'q' to quit the game, all gold will be lost, health and
 mana reset, and the game returned to the splash screen, ready to be played 
 again.
 
-------------------------------- Configuration ---------------------------------
+##Configuration
 
 Almost everything about this game is configurable, for example
 
@@ -143,5 +144,3 @@ Shop:
 	Prices
 	Price increases
 	Powerup size
-	
--------------------------------------------------------------------------------
