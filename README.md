@@ -119,23 +119,23 @@ again.
 Almost everything about this game is configurable, for example
 
 **Player:**
-	Starting position
-	Color
-	Death penalty
-	Starting stats (health, mana, armor, gold)
+* Starting position
+* Color
+* Death penalty
+* Starting stats (health, mana, armor, gold)
 	
 **Enemy:**
-	$ value
-	Bounty
-	Damage
-	Type colors
+* $ value
+* Bounty
+* Damage
+* Type colors
 	
 **Game Data:**
-	Game ticks per second
-	Screen size
-	Game colors and symbols
+* Game ticks per second
+* Screen size
+* Game colors and symbols
 	
 **Shop:**
-	Prices
-	Price increases
-	Powerup size
+* Prices
+* Price increases
+* Powerup size
