@@ -6,7 +6,7 @@ Jonathan Morlen
 jmorlen@purdue.edu
 
 
-##Compilation
+## Compilation
 
 To compile this game, add the .c files to the "src" folder of a new eclipse 
 project, add the .h files to the "inc" folder and then build and run. 
@@ -24,13 +24,13 @@ this is just a disclaimer since I don't know what will happen when grading
 
 This game is 80 x 21 @ 230,400 Baud so adjust the terminal settings accordingly.
 
-##Summary
+## Summary
 
 This game is a top-down maze game, similar to Super Bomberman on the Super NES.
 It has health, mana (a type of life force), armor, and gold elements from RPG 
 games. It incorporates types and supereffectiveness from Pokemon games as well.
 
-##Controls
+## Controls
 
 w - Up
 a - Left
@@ -45,7 +45,7 @@ m - Mute the music
 r - Show/Hide a condensed version of the hotkeys and controls breakdown
 e - Open shop to purchase powerups
 
-##Game Elements
+## Game Elements
 
 'x' - enemy of a random color, all equal probabilities (red, green, blue). 
       Counter the enemy by changing to the appropriate type.
@@ -56,7 +56,7 @@ e - Open shop to purchase powerups
 	  reward and teleport to the beginning of the next level, keeping all 
 	  earned gold.
 
-##Goal
+## Goal
 
 The player's character is a magenta (configurable) pound sign (#) that starts 
 in the bottom left corner of the maze
@@ -85,18 +85,18 @@ Once the player makes their way through the maze and into the portal, they are
 rewarded with a scaling level bounty of gold and are teleported to the next 
 level's start area.
 
-##Interface
+## Interface
 
-HUD:
+**HUD:**
 The heads up display (HUD) of the game is at the top of the screen. Here the 
 player's health, mana, armor, and gold are displayed, as well as if the music
 is muted or not.
 
-Controls:
+**Controls:**
 At the bottom of the screen is the space reserved for the in-game documentation.
 Pressing 'r' will toggle the visibility of this documentation.
 
-Shop:
+**Shop:**
 Just above the in-game documentation, there is a shop. If the player presses 'e'
 the shop will show/hide itself. If the shop is open, the player can purchase
 powerups using the keys '1', '2', and '3' to buy it. Everytime the player buys
@@ -104,43 +104,43 @@ an item, the cost of it will go up. When purchasing items the bonus is immediate
 (like a heal if purchasing health) as well as permanent for the game (increased 
 maximum health on next spawn).
 
-Pause:
+**Pause:**
 If the player presses 'p' to pause the game, everything will stop and at the
 bottom of the HUD, the word "PAUSED" will appear to give the player a visual
 indication of the state of the game.
 
-Mute:
+**Mute:**
 If the player presses 'm' to toggle the mute function of the game's music,
 the music element in the HUD will toggle on/off to give the player a visual 
 indication of the state of the game's music.
 
-Quit:
+**Quit:**
 If the player presses 'q' to quit the game, all gold will be lost, health and 
 mana reset, and the game returned to the splash screen, ready to be played 
 again.
 
-##Configuration
+## Configuration
 
 Almost everything about this game is configurable, for example
 
-Player:
+**Player:**
 	Starting position
 	Color
 	Death penalty
 	Starting stats (health, mana, armor, gold)
 	
-Enemy:
+**Enemy:**
 	$ value
 	Bounty
 	Damage
 	Type colors
 	
-Game Data:
+**Game Data:**
 	Game ticks per second
 	Screen size
 	Game colors and symbols
 	
-Shop:
+**Shop:**
 	Prices
 	Price increases
 	Powerup size
