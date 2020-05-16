@@ -32,6 +32,7 @@ games. It incorporates types and supereffectiveness from Pokemon games as well.
 * s - Down
 * d - Right
 * spacebar - change type
+
 * p - Pause the game
 * q - Quit the game
 * m - Mute the music
