@@ -1,9 +1,8 @@
 # 362Project3
 Documentation
 
-ECE 362 Project 3 Game with Music
-Jonathan Morlen
-jmorlen@purdue.edu
+* ECE 362 Project 3 Game with Music
+* Jonathan Morlen (jmorlen@purdue.edu)
 
 
 ## Compilation
