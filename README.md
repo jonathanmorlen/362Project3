@@ -17,11 +17,6 @@ When compiling, go to
 Project > Properties > C/C++ Build > Settings > Optimization
 and change the release optimization level to -Os to optimize for size
 
-This game is at the absolute limit of the STM's memory (7910/8192 bytes) so the 
-board may need to be unplugged and plugegd back in to try to run it. I tried to 
-play as long as I could and see if anything would go wrong and it didn't, so 
-this is just a disclaimer since I don't know what will happen when grading
-
 This game is 80 x 21 @ 230,400 Baud so adjust the terminal settings accordingly.
 
 ## Summary
