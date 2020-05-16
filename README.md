@@ -27,27 +27,25 @@ games. It incorporates types and supereffectiveness from Pokemon games as well.
 
 ## Controls
 
-w - Up
-a - Left
-s - Down
-d - Right
+* w - Up
+* a - Left
+* s - Down
+* d - Right
 
 spacebar - change type
 
-p - Pause the game
-q - Quit the game
-m - Mute the music
-r - Show/Hide a condensed version of the hotkeys and controls breakdown
-e - Open shop to purchase powerups
+* p - Pause the game
+* q - Quit the game
+* m - Mute the music
+* r - Show/Hide a condensed version of the hotkeys and controls breakdown
+* e - Open shop to purchase powerups
 
 ## Game Elements
 
-'x' - enemy of a random color, all equal probabilities (red, green, blue). 
+* 'x' - enemy of a random color, all equal probabilities (red, green, blue). 
       Counter the enemy by changing to the appropriate type.
-
-'$' - Gold in the maze, gives a set bounty and requires no type to pick up.
-
-'*' - Portal to the next level. Walk over to win the level, earn the level 
+* '$' - Gold in the maze, gives a set bounty and requires no type to pick up.
+* '*' - Portal to the next level. Walk over to win the level, earn the level 
 	  reward and teleport to the beginning of the next level, keeping all 
 	  earned gold.
 
