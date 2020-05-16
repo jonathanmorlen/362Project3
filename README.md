@@ -60,9 +60,9 @@ The goal of this game is to use the movement controls with the type changing to
 "counter" the type of the enemy, represented by an 'x', the player encounters by 
 walking over.
 
-	   Fire (red) beats Grass (green)
-    Grass (green) beats Water (blue)
-     Water (blue) beats Fire (red)
+   Fire (red) beats Grass (green)
+Grass (green) beats Water (blue)
+ Water (blue) beats Fire (red)
      
 Use the spacebar to transition between the different types to counter the type
 of the 'x' you are walking over. If successful the enemy will be countered and
